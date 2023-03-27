@@ -727,8 +727,32 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}checklists?idCard=642169413a21754b2530d52a&name=testowa checklista&key={{key}}&token={{token}}",
+					"host": [
+						"{{url}}checklists"
+					],
+					"query": [
+						{
+							"key": "idCard",
+							"value": "642169413a21754b2530d52a"
+						},
+						{
+							"key": "name",
+							"value": "testowa checklista"
+						},
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						}
+					]
+				}
 			},
 			"response": []
 		}
