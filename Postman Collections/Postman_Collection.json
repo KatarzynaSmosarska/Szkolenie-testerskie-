@@ -721,7 +721,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "createChecklist",
 			"id": "b63205c0-5f89-4d99-9f3b-cb320c54b983",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
