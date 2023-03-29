@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "createNewOrganization",
-			"_postman_id": "52e23f59-cc35-4a81-bd60-5b149ac5aad0",
+			"id": "52e23f59-cc35-4a81-bd60-5b149ac5aad0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -42,7 +42,21 @@
 		},
 		{
 			"name": "createBoard",
-			"_postman_id": "0c410b36-e7db-40a5-978f-0c12d4742a75",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c331f208-683a-4b8e-9cfb-44ae019685e0",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "0c410b36-e7db-40a5-978f-0c12d4742a75",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -77,7 +91,7 @@
 		},
 		{
 			"name": "createListToDo",
-			"_postman_id": "5258e024-a0f6-4713-965f-9ff1118ca5d7",
+			"id": "5258e024-a0f6-4713-965f-9ff1118ca5d7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -116,7 +130,7 @@
 		},
 		{
 			"name": "createCard",
-			"_postman_id": "b663307d-991d-42ff-8a37-4033ceea1e58",
+			"id": "b663307d-991d-42ff-8a37-4033ceea1e58",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -152,7 +166,7 @@
 		},
 		{
 			"name": "updatecard",
-			"_postman_id": "ad9b3a2d-2b39-4bb8-8144-a7dda62d7dd7",
+			"id": "ad9b3a2d-2b39-4bb8-8144-a7dda62d7dd7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
